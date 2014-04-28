@@ -1,216 +1,29 @@
-	background:url("http://secondwindforpf.com/wp-content/uploads/2012/04/SW-Header-Clouds.gif");
+/**
+* Custom CSS declarations
+*
+* If your server is registered, you can create a file named `custom.css`
+* in the `config` directory and populate it with CSS rules to override the
+* normal client styles, when the client is connected to your server. In
+* other words, you can use this facility to introduce a custom theme for
+* your server.
+*/
+
+#header{background:url("http://secondwindforpf.com/wp-content/uploads/2012/04/SW-Header-Clouds.gif")}
+
+body{background-image:url("http://fc01.deviantart.net/fs71/f/2013/067/7/b/flying_type_wallpaper_by_reshiramaster-d5xeleh.jpg");background-repeat:no-repeat;background-position:center}
+
+.chat-log{font-size:10pt;background: url("http://fc06.deviantart.net/fs70/i/2010/343/9/6/articuno_by_crayon_chewer-d34j8d4.png") no-repeat scroll right bottom;background:#a5ffa5;color:#000;overflow:auto;}
+
+.menugroup .button{background:#008120}.menugroup 
+
+.menugroup {
+background:#a5ffa5);
+text-align: center;
 }
 
-body {
-	background:url("http://i.imgur.com/XVyi9P9.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+.button:hover{background:#4876FF}
+
+.userlist {
+border-left: 1px solid #99CCFF;
+background: #99CCFF;
 }
-
-.chat-log{
-	background: url("http://fc06.deviantart.net/fs70/i/2010/343/9/6/articuno_by_crayon_chewer-d34j8d4.png") right top no-repeat;
-}
-
-
-
-.userlist{
-	border-left:1px solid #D5DDE4;
-	background: #86f586;
-}
-
-.userlist li button:hover {
-	background:#edeb39;
-}
-
-.message-announce {
-	background:#47cb39;
-	outline: 1px solid red;
-}
-
-.userlist li em.group, .pm-window h3 small  {
-   color: #5e5e5e;
-}
-  
-
-
-
-
-
-.chat-log{
-	font-size:10pt;
-	background:#f2f9ff;
-	color:#000;
-	overflow:auto
-}
-
-.menugroup .button{
-	background:#3A5FCD
-}
-
-.menugroup .menugroup{
-	text-align:center
-}
-
-.button:hover{
-	background:#4876FF
-}
-
-.userlist{
-	border-left:1px solid #D5DDE4;
-	background:#e5f5ff
-}
-
-/****************************
-*Thanksgiving Theme (deer)  *
-****************************/
-/*#header{
-background:url("http://pythoughts.com/wp-content/uploads/2011/01/hrgreenbrown.jpg");
-}
-
-body {
-background:url("http://i.imgur.com/L38WoEG.png");
-}
-
-.mainmenuwrapper {
-        background: url("http://i.imgur.com/rov52z9.png") right bottom no-repeat;
-}
-
-
-.chat-log{
-        background: url("http://i.imgur.com/dIfUHsq.png") right top no-repeat;
-}
-
-.chat-log-add{
-background:#785936
-}
-.menugroup .button{
-background:#785936
-}
-
-.menugroup .menugroup{
-text-align:center
-}
-
-.menugroup .button:hover {
-background:#B5823F
-}
-
-.userlist{
-border-left:1px solid #785936;
-background:#b48c51
-}
-
-.userlist li button:hover {
-background:#B5823F
-}
-
-.message-announce {
-background:#000000
-}*/
-/************************************************
-*Vaniluxe theme                                 *
-************************************************/
-/*#header{
-background:url("http://www.southernbreezefarm.net/sitebuilder/images/blue_banner-760x147.jpg");
-}
-
-body {
-background:url("http://i.imgur.com/Ci5DW3i.jpg");
-}
-
-.mainmenuwrapper {
-        background: url("http://i.imgur.com/hcfggvP.png") center no-repeat;
-}
-
-
-.chat-log{*/
-        /*Vanlite chat picture*/					      
-        /*background: url("http://i.imgur.com/2OtugRn.png") right top no-repeat;*/
-        /*Cubchoo Background*/
-        /*background: url("http://i.imgur.com/FqpmTtq.png") right top no-repeat;
-}
-.chat-log-add{
-background:#0066b2
-}
-.menugroup .button{
-background:#0092FF
-}
-
-.menugroup .menugroup{
-text-align:center
-}
-
-.menugroup .button:hover {
-background:#23AFFF
-}
-
-.userlist{
-border-left:1px solid #785936;
-background: #7fd3ff
-}
-
-.userlist li button:hover {
-background:#65a8cc;
-}
-
-.userlist li button:active {
-	background: #3f697f
-}
-
-.message-announce {
-background:#000000
-}*/
-
-
-
-/*****************************
-*halloween theme             *
-*****************************/
-/*#header{
-        background:url("http://i.imgur.com/F5pMH0a.png");
-}
-
-body {
-        background:url("http://i.imgur.com/J4ALaW9.png");
-}
-
-.mainmenuwrapper {
-	background: url("http://i.imgur.com/iHubd1y.png") right bottom no-repeat;
-}
-
-
-.chat-log{
-	background: url("http://i.imgur.com/dIfUHsq.png") right top no-repeat;
-}
-
-.chat-log-add{
-        background:#f68d4b 
-}
-  
-.menugroup .button{
-        background:#5a11ff
-}
-
-.menugroup .menugroup{
-        text-align:center
-}
-
-.menugroup .button:hover {
-        background:#9f89ff
-}
-
-.userlist{
-        border-left:1px solid #D5DDE4;
-        background:#f68d4b 
-}
-
-.userlist li button:hover {
-        background:#db671d
-}
-
-.message-announce {
-        background:#000000
-} */
-
